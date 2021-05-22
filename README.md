@@ -31,9 +31,9 @@ You have to submit your project into this repository before 23.05.2021 (midnight
 
 ### Template in .php done by Saidkarim
 
-![alt text](https://i.ibb.co/9GL2yF8/2021-05-22-19-54-54.png)
+![alt text](https://i.ibb.co/R7mPQxv/2021-05-22-19-54-54.png)
 
-![alt text](https://i.ibb.co/tcyvQrb/2021-05-22-19-55-01.png)
+![alt text](https://i.ibb.co/K7Cfbv9/2021-05-22-19-55-01.png)
 
 ### About, catalog, news done by Abdullo
 * About
