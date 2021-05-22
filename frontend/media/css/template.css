@@ -599,10 +599,10 @@ img[align=left] {
 
 /* ================================== Custom Classes End ================================== */
 :root{
---font-regular:'gotham_proregular';
---font-medium:'gotham_promedium';
---font-light-italic:'gotham_prolight_italic';
---font-bold:'gotham_probold';
+--font-regular:'GothamPro';
+--font-medium:'GothamPro-Medium';
+--font-light-italic:'GothamPro-LightItalic';
+--font-bold:'GothamPro-Bold';
 --top-line:#2d3e50;
 --color-red: #da2e46;
 }
@@ -707,11 +707,11 @@ html, body {
 .br_logotype {
   display: flex;
   align-items: center;
-  text-transform: uppercase;
-  font-size: 12px;
   text-decoration: none;
-  color: #898a8c !important;
-  font-family: var(--font-medium);
+  font-family: 'GothamPro-Medium';
+  color: #898a8c;
+  text-transform: uppercase;
+  width: 25%;
 }
 
 .br_logotype img {
@@ -719,7 +719,7 @@ html, body {
 }
 
 .br_logotype span {
-  width: 80%;
+  width: 25%;
   white-space: normal;
 }
 .br_headline{
@@ -923,20 +923,89 @@ padding: 16px 20px;
 .br_advantage [class*='col-']:hover h3 {
   color: #fff;
 }
-
+#footer_container{
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+}
 
 
 /* ================================== Middle End ================================== */
 
 /* ================================== Footer Start ================================== */
-
 .br_footer{
-
+  background: #2d3e50;
+  color: #f1f1f1;
+}
+.br_footer .container{
+    padding: 30px 0;
+    justify-content: space-between;
 }
 .br_footer .br_logotype{
-  color: #fff !important;
+  color: #f1f1f1;
+}
+.br_adress{
+  width: 30%;
+}
+.br_adress .line{
+  display: flex;
+  margin-bottom: 15px;
+}
+.br_adress .line i{
+  font-size: 20px;
+  color: #da2e46;
+  margin-right: 15px;
+}
+.br_adress .line span{
+  
+}
+.br_adress .line span a{
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.br_adress .line b{
+    font-family: 'GothamPro-Medium';
+    font-weight: normal;
+    margin-right: 10px;
+    width: 56px;
+}
+.br_adress .line small{
+  font-size: 14px;
+  display: block;
+}
+.br_adress .line:last-child{
+  margin-bottom: 0;
+}
+
+.br_footer .br_adress + .br_adress{
+  width: 18%;
+}
+
+.br_policy{
+  width: 22%;
+}
+
+.br_policy > a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.br_create{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.br_create span{
+  font-family: 'GothamPro-LightItalic';
+}
+
+.br_create a{
 
 }
+
+
 /* ================================== Footer End ================================== */
 
 
