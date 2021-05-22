@@ -2145,4 +2145,150 @@ font-family: var(--font-light-italic);
 .br_items .br_item:nth-child(3n){
   margin-right: 0;
 }
+.cart{
+  position: relative;
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  overflow: hidden;
+}
+.cart-number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 50px 30px 10px;
+}
+.cart img{
+  width: 50px;
+  height: 50px;
+}
+.cart-button{
+  margin-top: 20px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all 0.3s;
+  width: 180px;
+  z-index: 100;
+}
+button{
+  border: none;
+  background-color: #da2e46;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttons{
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minus,
+.add{
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #fff;
+  transition: all 0.3s ease-out;
+  background-color: #da2e46;
+}
+.minus{
+  transform: translateX(60px);
+}
+.add{
+  transform: translateX(-64px);
+}
+.minus-slide{
+  transform: translateX(0px);
+}
+.add-slide{
+  transform: translateX(0px);
+}
+button:hover{
+  background-color: #da2e46;
+}
+.number{
+  position: absolute;
+  top: 18%;
+  right: 30%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+.popup{
+  position: absolute;
+  top: 18%;
+  right: 30%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: #da2e46 !important;
+  color: #FFFFFF;
+  transform: scale(0);
+  transition: all 0.3s ease-out;
+}
+.background-color{
+  position: absolute;
+  top: 18%;
+  right: 30%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: #da2e46 !important;
+  color: #fff;
+  transform: scale(1);
+}
+
+.popup-open{
+  animation: pop-up 0.3s ease-out 0.2s;
+  transition-delay: 0.3s;
+  transform: scale(1);
+
+}
+.popup-two{
+  animation: pop-up-2 0.3s ease-out !important;
+  transition-delay: 0.3s;
+  transform: scale(1);
+}
+@keyframes pop-up{
+  0%{
+    transform: scale(0);
+  }
+  20%{
+    transform: scale(0.8);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+@keyframes pop-up-2{
+  0%{
+    transform: scale(1);
+  }
+  20%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
 /* ================================== Footer End ================================== */

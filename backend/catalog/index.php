@@ -19,11 +19,12 @@ $pagename="Catalog";
             </h2>
             <div class="br_price">
                 <span><?php echo $item['price']?>$</span>
-                <a href="javascript:void(0)" class="btn">Order</a>
+                <a href="/payment/index.php" class="btn">Order</a>
             </div>
         </div>
 
     <?php }
     ?>
     </div>
+
 <?php require($_SERVER['DOCUMENT_ROOT'].'/template/footer.php') ?>
