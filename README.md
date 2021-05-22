@@ -23,5 +23,6 @@ You have to submit your project into this repository before 23.05.2021 (midnight
 * Also users can order and pay to the product (Soon...)
 
 # Work on project
-* Frontend done by Saidakbar @saidakbar
+* Frontend done by Saidakbar @saidakbar99
+
 ![alt text](https://i.ibb.co/N76hZjF/2021-05-22-19-37-08.png)
