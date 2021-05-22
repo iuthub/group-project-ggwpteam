@@ -6,3 +6,20 @@ Find `ip_group_project.pdf` file in this folder, and refer to all the instructio
 You have to submit your project into this repository before 23.05.2021 (midnight).
 
 # GGWPTEAM
+* Khudaybergen Tlegenov U1910040 Section 001
+* Saidkarim Yuldashev U1910033 Section 001
+* Saidakbar Zafarov U191007 Section 001
+* Izzatjon Aliev U1910069 Section 00X
+* Timur Atakulov U1910045 Section 001
+* Abdullo Kholmakhmatov U1910018 Section 001
+
+# About project
+###### Our project about online store of dental products
+* Users can register
+* Users can login
+* Users can leave feedback
+* Admin can add, update news/stocks and also delete them
+* Users can check in browser using searching icon on top-right
+* Also users can order and pay to the product (Soon...)
+
+# Work on project
