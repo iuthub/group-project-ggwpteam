@@ -26,3 +26,4 @@ You have to submit your project into this repository before 23.05.2021 (midnight
 * Frontend done by Saidakbar @saidakbar99
 
 ![alt text](https://i.ibb.co/N76hZjF/2021-05-22-19-37-08.png)
+![alt text](https://i.ibb.co/xHXXmFw/2021-05-22-19-37-13.png)
