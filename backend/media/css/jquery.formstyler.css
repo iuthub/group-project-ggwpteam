@@ -103,10 +103,10 @@
 }
 .jq-number__field input {
 	-moz-appearance: textfield;
-	text-align: left; /* для Opera Presto */
+	text-align: left;
 }
 .jq-number__field input::-webkit-inner-spin-button,
 .jq-number__field input::-webkit-outer-spin-button {
-	margin: 0; /* в каких-то браузерах присутствует отступ */
+	margin: 0;
 	-webkit-appearance: none;
 }

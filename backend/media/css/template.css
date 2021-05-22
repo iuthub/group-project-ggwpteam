@@ -1742,21 +1742,6 @@ form h3{
     align-items: center;
     margin-right: 15px;
  }
-
-/*.gender_choose{
-  display: flex !important;
-  align-items: center !important;
-}
-
-.gender_choose label {
-  display: block;
-  align-items: center;
-  margin-right: 15px;
-} 
-.gender_choose label .jq_radio__div{  
-  margin-right: 5px !important;
-}
-*/
 .p_link {
   position: absolute;
   top: 35px;
