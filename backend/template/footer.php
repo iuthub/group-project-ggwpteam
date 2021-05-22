@@ -1,4 +1,3 @@
-// Footer
 </div>
     
                 </div>

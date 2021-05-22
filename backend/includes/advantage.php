@@ -1,4 +1,3 @@
-// Advantage
 <div class="row br_advantage">
 <?php $query_advantage=mysqli_query($connect,'SELECT * FROM `advantage`'); 
 $advantage=mysqli_fetch_all($query_advantage);

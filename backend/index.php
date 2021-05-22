@@ -1,4 +1,3 @@
-// Main
 <?php $pagename=""; ?>
 <?php require($_SERVER['DOCUMENT_ROOT'].'/template/header.php') ?>
 
