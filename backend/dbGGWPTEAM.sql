@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 22, 2021 at 01:55 AM
+-- Generation Time: May 23, 2021 at 03:06 PM
 -- Server version: 5.7.32
 -- PHP Version: 7.3.24
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `group11`
+-- Database: `dbGGWPTEAM`
 --
 
 -- --------------------------------------------------------
@@ -370,7 +370,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `login`, `name`, `password`, `email`, `tel`, `date`, `country`, `gender`, `photo`) VALUES
-(1, 'wwwwww', 'wwwwww', 'df483402b9bfeb234717a32c6e86280e', 'wwwww@asd.com', '123123', '17-05-2021', 'Россия', 'мужчина', '/media/img/upload/');
+(1, 'admin', 'Admin', 'f3253d0a419c1fa1f990819278323fdc', 'admin@gmail.com', '+998974556969', '17-05-2021', 'Russia', 'male', '/media/img/upload/');
 
 --
 -- Indexes for dumped tables
