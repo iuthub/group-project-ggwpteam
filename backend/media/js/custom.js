@@ -30,14 +30,7 @@ $(document).ready(function () {
 			$(this).parent().find('input:text').removeAttr('type').attr('type','password');
 		}
 	});
-	/*$('.layer').fadeIn(500);
-	$('.br_modal').fadeIn(600);
-	$('body').addClass('br_body');
-	$('#yes').click(function(){
-		$('.layer').fadeOut(500);
-		$('.br_modal').fadeOut(600);
-		$('body').removeClass('br_body');
-	})*/
+
 	$('.br_input input').focus(function(){
 		$(this).parent().addClass('focus');
 	});
@@ -55,7 +48,7 @@ $(document).ready(function () {
 			$(this).parent().find('label small').remove();
 		}else{
 			$(this).parent().addClass('error');
-			$(this).parent().find('label').append('<small>   *-Заполните поле</small>');
+			$(this).parent().find('label').append('<small>   *-Fill in the field</small>');
 	}
 	});
 	$('.br_slider').owlCarousel({
@@ -83,7 +76,7 @@ $(document).ready(function () {
 
 	$('input:checkbox, input:radio, input:file, select').styler();
 	$(window).scroll(function(){
-		//$('.br_logotype span').text('123')
+
 		if ($(this).scrollTop()>160) {
 			$('.top_link').stop().animate({ bottom:'47'},500);
 		}else {
@@ -217,8 +210,8 @@ var startFrom = 1;
             	"</a></h3><span>"+data.date+"</span><p>"
             	+data.description+"</p><p><span class='hide_'>"
             	+data.description+
-            	"</span><a href='javascript:void(0)'>Показать еще</a></p><a href='./detail.php?id="
-            	+data.id+"' class='btn red'>Подробнее</a></div></div>");
+            	"</span><a href='javascript:void(0)'>Show more</a></p><a href='./detail.php?id="
+            	+data.id+"' class='btn red'>More details</a></div></div>");
             });
 
             inProgress = false;
@@ -232,12 +225,12 @@ var startFrom = 1;
 
 
    	$('.br_stock p a').click(function(){
-		if($(this).text()=="Показать еще"){
+		if($(this).text()=="Show more"){
 			alert(123);
-			$(this).text("Скрыть");
+			$(this).text("Hide");
 			$(this).parent().find('.hide_').show();
 		} else {
-			$(this).text("Показать еще");
+			$(this).text("Show more");
 			$(this).parent().find('.hide_').hide();
 		}
 	});
