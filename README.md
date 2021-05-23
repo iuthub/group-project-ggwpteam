@@ -9,7 +9,7 @@ You have to submit your project into this repository before 23.05.2021 (midnight
 * Khudaybergen Tlegenov U1910040 Section 001
 * Saidkarim Yuldashev U1910033 Section 001
 * Saidakbar Zafarov U191007 Section 001
-* Izzatjon Aliev U1910069 Section 00X
+* Izzatjon Aliev U1910069 Section 002
 * Timur Atakulov U1910045 Section 001
 * Abdullo Kholmakhmatov U1910018 Section 001
 
